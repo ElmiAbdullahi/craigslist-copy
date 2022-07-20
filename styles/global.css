@@ -33,3 +33,17 @@ footer {
     justify-content: flex-end;
     background-color: var(--footer-background);
 }
+
+.whole-grid div {
+    border: 1px black;
+}
+
+.whole-grid {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    margin: 0 auto;
+    height: 100%;
+    width: 75%;
+    
+}
+    
